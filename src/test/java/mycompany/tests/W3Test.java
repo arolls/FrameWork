@@ -28,13 +28,10 @@ public class W3Test {
   }
   
   @Test
-  //public void headerCheckUsingLibrary() throws Exception {
-  //  driver.get("http://www.w3.org/");
-  //  Library.headerCheck(driver);
-  //}
-  public void participateCheckUsingLibraya() throws Exception {
+  public void W3Test() throws Exception {
     driver.get("http://www.w3.org/");
-    Library.participateCheck(driver);
+    Library.clickNavMenu(driver);
+    Library.goHome(driver);
   }
 
   @AfterTest
