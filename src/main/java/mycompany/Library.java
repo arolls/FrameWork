@@ -11,14 +11,9 @@ import static org.testng.Assert.*;
 
 public class Library {
 
-  public static void clickNavMenu(final WebDriver driver) {
-    driver.findElement(By.linkText("Standards")).click();
-    driver.findElement(By.linkText("Participate")).click();
-    driver.findElement(By.linkText("Membership")).click();
-    driver.findElement(By.linkText("About W3C")).click();
+  public static void function1(final WebDriver driver) {
   }
-  public static void goHome(final WebDriver driver) {
-    driver.findElement(By.cssSelector("a")).click();
+  public static void function2(final WebDriver driver) {
   }
 
 }

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class W3Test {
+public class Test1 {
 
   // TODO: It would be trivial to make this a parameter to Jenkins jobs
   private static final int IMPLICIT_TIMEOUT_SECONDS = 5;
@@ -28,10 +28,8 @@ public class W3Test {
   }
   
   @Test
-  public void W3Test() throws Exception {
-    driver.get("http://www.w3.org/");
-    Library.clickNavMenu(driver);
-    Library.goHome(driver);
+  public void Test1() throws Exception {
+    driver.get("http://www.toolsqa.org/");
   }
 
   @AfterTest
