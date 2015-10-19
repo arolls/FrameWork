@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="11086" started-at="2015-10-19T15:08:25Z" finished-at="2015-10-19T15:08:36Z">
+  <suite name="Surefire suite" duration-ms="11671" started-at="2015-10-19T16:15:36Z" finished-at="2015-10-19T16:15:48Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="11086" started-at="2015-10-19T15:08:25Z" finished-at="2015-10-19T15:08:36Z">
+    <test name="Surefire test" duration-ms="11671" started-at="2015-10-19T16:15:36Z" finished-at="2015-10-19T16:15:48Z">
       <class name="mycompany.tests.W3Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:mycompany.tests.W3Test@3ce3e8f3]" name="setUp" is-config="true" duration-ms="4752" started-at="2015-10-19T16:08:25Z" finished-at="2015-10-19T16:08:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:mycompany.tests.W3Test@16d2c8c0]" name="setUp" is-config="true" duration-ms="5181" started-at="2015-10-19T17:15:36Z" finished-at="2015-10-19T17:15:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="W3Test()[pri:0, instance:mycompany.tests.W3Test@3ce3e8f3]" name="W3Test" duration-ms="6153" started-at="2015-10-19T16:08:30Z" finished-at="2015-10-19T16:08:36Z">
+        <test-method status="PASS" signature="W3Test()[pri:0, instance:mycompany.tests.W3Test@16d2c8c0]" name="W3Test" duration-ms="6328" started-at="2015-10-19T17:15:41Z" finished-at="2015-10-19T17:15:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- W3Test -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:mycompany.tests.W3Test@3ce3e8f3]" name="cleanUp" is-config="true" duration-ms="143" started-at="2015-10-19T16:08:36Z" finished-at="2015-10-19T16:08:36Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:mycompany.tests.W3Test@16d2c8c0]" name="cleanUp" is-config="true" duration-ms="144" started-at="2015-10-19T17:15:48Z" finished-at="2015-10-19T17:15:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
